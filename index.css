@@ -196,10 +196,12 @@ li >a{
 }
 .icons{
     height:10%;
-    width:65%;
+    width:30%;
     margin:1.5% 0 0 13%;
     display:flex;
     padding-left: 1%;
+    gap:5%;
+    /* border:1px solid red; */
 }
 .icons2{
     height:20%;
@@ -207,16 +209,21 @@ li >a{
     margin:5% 0 0 14%;
     display:flex;
     padding-left: 1%;
+    gap:5%;
+
 }
 .box1,.box2,.box3,.box4,.box5{
     height:88%;
-    width:14%;
-    align-items: center;
+    width:30%;
+    /* align-items: center; */
     background-color: #262626;
     border-radius: .3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .box2,.box3,.box4,.box5,.box7,.box8,.box9,.box10{
-    margin-left:2%;
+    /* margin-left:2%; */
 }
 .box6,.box7,.box8,.box9,.box10{
     height:80%;
@@ -225,22 +232,24 @@ li >a{
     background-color: #262626;
     border-radius: .3rem;
 }
-.linkedin,.facebook,.instagram,.github,.twitter{
-    height:2rem;
-    width:1.6rem;
-    margin:17% 0 0 30%;
+.linkedin,.facebook,.instagram{
+    scale: 1.7;
+    color:#C4CFDE;
+
 }
+
+/* footer icons  */
 .linkedin1,.facebook1,.instagram1,.github1,.twitter1{
     height:2.3rem;
     width:1.9rem;
     margin:17% 0 0 28%;
 }
-.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,.box6:hover,.box7:hover,.box8:hover,.box9:hover,.box10:hover{
+.box1:hover,.box2:hover,.box3:hover,.box6:hover,.box7:hover,.box8:hover,.box9:hover,.box10:hover{
     box-shadow: #7C838E 0px 2px 8px 0px;
 
 }
-.box1:hover .linkedin,.box2:hover .facebook,.box3:hover .instagram,.box4:hover .github,.box5:hover .twitter, .box6:hover .linkedin1,.box7:hover .facebook1,.box8:hover .instagram1,.box9:hover .github1,.box10:hover .twitter1{
-    fill: #FF014F;
+.box1:hover .linkedin,.box2:hover .facebook,.box3:hover .instagram, .box6:hover .linkedin1,.box7:hover .facebook1,.box8:hover .instagram1,.box9:hover .github1,.box10:hover .twitter1{
+    color: #FF014F;
 }
 .img-box{
     height:78%;
