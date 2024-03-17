@@ -682,7 +682,7 @@ li >a{
     .main1{
         border:1px solid cyan;
         width:120vw;
-        height:230vh;
+        height:210vh;
         display:flex;
         flex-direction: column-reverse;
         
@@ -718,7 +718,7 @@ li >a{
         /* font-size: 1.2rem; */
         color: #C4CFDE;
         font:1.2rem Montserrat,sans-serif; 
-        margin:4% 0 0 2%;
+        margin:1% 0 0 2%;
     }
     .expert{
         line-height: 2.5rem;
