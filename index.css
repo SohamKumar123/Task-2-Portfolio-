@@ -137,14 +137,15 @@ li >a{
     margin:17% 0 0 14%;
 
 }
-.intro{
+/* .intro{
     height:19%;
     width:73%;
     margin:1% 0 0 14%;
     /* border:1px solid red; */
 
-}
-.intro>p{
+.intro{
+    margin:1% 0 0 14%;
+    line-height: 5rem;
     color:#ffffff;
     font:3rem Montserrat,sans-serif; 
     font-weight: 700;
@@ -152,9 +153,7 @@ li >a{
 .soham{
     color:#FF0145;
 }
-.web{
-    line-height: 5rem;
-}
+
 .discription{
     /* font-size: 1.2rem; */
     color: #C4CFDE;
@@ -640,7 +639,7 @@ li >a{
 
 
 /* for maximum size 480px  */
-@media (max-width: 480px) {
+@media (max-width:768px) {
     /* nav bar styling  */
     
     .bio{
@@ -685,6 +684,8 @@ li >a{
         height:210vh;
         display:flex;
         flex-direction: column-reverse;
+        box-sizing: border-box;
+        overflow: hidden;
         
     }
     /* .part1{
@@ -694,8 +695,11 @@ li >a{
         border:2px solid rgb(5, 5, 5);
 
     } */
+    
     .part1,.part2{
         width:100%;
+        border:1px solid orangered;
+        box-sizing: border-box;
     }
    
     .welcome{
@@ -703,25 +707,22 @@ li >a{
         font-size: 1rem;
     }
     .intro{
-        height:19%;
-        width:73%;
+       
         margin:3% 0 0 2%;
+        font-size:1.8rem;
+        line-height: 1.5;
+
         
     }
-    .intro>p{
-        font-size:1.8rem ;
-    }
-    .web{
-        line-height: 1.5;
-    }
+    
+    
     .discription{
         /* font-size: 1.2rem; */
         color: #C4CFDE;
         font:1.2rem Montserrat,sans-serif; 
-        margin:1% 0 0 2%;
-    }
-    .expert{
+        margin:0 0 0 2%;
         line-height: 2.5rem;
+
     }
     .resume{
         margin:4% 0 0 2%;
