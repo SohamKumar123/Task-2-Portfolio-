@@ -678,25 +678,29 @@ li >a{
         flex-direction: column-reverse;
         
     }
-
+    .part1{
+    }
+    .part2{
+    }
     .part1,.part2{
         width:100%;
     }
+   
     .welcome{
-        margin:17% 0 0 2%;
+        margin:2% 0 0 2%;
         font-size: 1rem;
     }
     .intro{
         height:19%;
         width:73%;
-        margin:4% 0 0 2%;
+        margin:3% 0 0 2%;
         
     }
     .intro>p{
         font-size:1.8rem ;
     }
     .web{
-        line-height: 2;
+        line-height: 1.5;
     }
     .discription{
         /* font-size: 1.2rem; */
@@ -716,9 +720,9 @@ li >a{
 
 /* for size 480px to 768px  */
 
-@media (min-width: 480px) and (max-width:768px){
+ @media (min-width: 480px) and (max-width:768px){
     /* nav bar styling  */
-    .bio{
+     .bio{
         height:9vh;
         width:30vw;
     }
@@ -746,7 +750,7 @@ li >a{
     
     }
 
-}
+} 
 
 
 /* for size 768px to 1024px  */
