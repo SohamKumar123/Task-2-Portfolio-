@@ -596,8 +596,6 @@ li >a{
     flex-direction: column;
     gap:10%;
 }
-
-
 .get,.social{
     font:2rem Poppins,sans-serif;
     color:#FF014F;
