@@ -124,7 +124,6 @@ li >a{
     display:flex;
 }
 .part1,.part2{
-    border:1px solid green;
     width:50%;
     height:100%;
 }
@@ -210,11 +209,9 @@ li >a{
    
 }
 .icons2{
-    height:20%;
+    height:10vh;
     width:65%;
-    margin:5% 0 0 14%;
     display:flex;
-    padding-left: 1%;
     gap:5%;
 
 }
@@ -230,11 +227,14 @@ li >a{
 }
 
 .box6,.box7,.box8,.box9,.box10{
-    height:80%;
-    width:14%;
+    height:100%;
+    width:18%;
     align-items: center;
     background-color: #262626;
     border-radius: .3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .linkedin,.facebook,.instagram,.leetcode,.codechef,.codestudio{
     scale: 1.7;
@@ -244,9 +244,10 @@ li >a{
 
 /* footer icons  */
 .linkedin1,.facebook1,.instagram1,.github1,.twitter1{
-    height:2.3rem;
-    width:1.9rem;
-    margin:17% 0 0 28%;
+    /* height:2.3rem;
+    width:1.9rem; */
+    scale: 1.7;
+    color:#C4CFDE;
 }
 .box1:hover,.box2:hover,.box3:hover,.box6:hover,.box7:hover,.box8:hover,.box9:hover,.box10:hover{
     box-shadow: #7C838E 0px 2px 8px 0px;
@@ -288,6 +289,8 @@ li >a{
     height:40rem;
     width:100%;
     margin-top:5%;
+  
+
 }
 .block{
     height:90%;
@@ -295,37 +298,24 @@ li >a{
     display:flex;
 }
 .edu-quality,.my-skills,.my-project,.my-contact{
-    height:10%;
-    width:100%;
-    text-align: center;
-    align-items: center;
-}
-.edu-quality>p,.my-skills>p,.my-project>p,.my-contact>p{
+    display: flex;
+    justify-content: center;
     font:3rem Montserrat,sans-serif;
     font-weight: 700;
     color: #C4CFDE;
-    /* color:#FF014F; */
-
-    align-items: center;
+    width:100%;
 }
+
 .block1,.block2{
     width:50%;
     height:100%;
 }
-.cllg,.school{
-    height:10%;
-    width:100%;
-    margin-top:5%;
 
-}
-.cllg>p,.school>p{
+.cllg,.school{
     font:2.2rem Montserrat,sans-serif;
     font-weight: 700;
-    /* color: #C4CFDE; */
     color:#FF014F;
-
-    margin:0 0 0 10%;
-
+    margin:5% 0 0 10%;
 }
 .btech,.twelve,.diploma,.tenth{
     border:1px solid #1a1a1a;
@@ -354,43 +344,40 @@ li >a{
     width:80%;
     height:100%;
 }
-.degree,.inst,.sr-sec,.schl1,.degree2,.inst2,.sec,.schl2{
-    height:50%;
-    width:100%;
-
-}
-.degree>p,.sr-sec>p,.degree2>p,.sec>p{
+.degree,.sr-sec,.degree2,.sec{
     font:1.5rem Montserrat,sans-serif;
     font-weight: 700;
     color: #C4CFDE;
     margin:5% 0 0 5%;
 }
-.inst>p,.schl1>p,.inst2>p,.schl2>p{
+.inst,.schl1,.inst2,.schl2{
     font:1rem Montserrat,sans-serif;
     font-weight: 700;
     /* color: #605f5f; */
     color: #7C838E;
 
-    margin:0 0 0 5.3%;
+    margin:4% 0 0 5.3%;
 }
 .two,.four,.five,.six,.third{
     width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .percentage,.percentage2,.percentage3,.percentage4{
     border:1px solid #262626;
-    height:30%;
+    height:33%;
     width:60%;
-    margin:28% 0 0 18%;
-    text-align: center;
     border-radius: .2rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .grade,.grade2,.grade3,.grade4{
     color:#FF014F;
     font:1rem Poppins,sans-serif;
-    margin-top: 10%;
 }
 .level2,.levelB,.level4,.levelD{
     /* border:1px solid indigo; */
@@ -412,14 +399,12 @@ li >a{
     margin:3% 0 0 0;
     width:100%;
     height:86vh;
-
 }
 .category{
-    height:90%;
+    height:84%;
     width:100%;
     display:flex;
-    margin:3% 0 0 0;
-
+    margin:2% 0 0 0;
 }
 .category1,.category2,.category3{
     height:100%;
@@ -437,21 +422,16 @@ li >a{
     font-weight: 700;
     margin-top: 2%;
 }
-.c,.cpp,.java,.python,.c-sharp,.htlm,.css,.bootstrap,.js,.react,.sql,.express,.node,.php,.mongo{
-    height:4%;
-    width:73%;
-    margin:2% 0 0 16%;
-}
-.htlm,.css,.bootstrap,.js,.react,.sql,.express,.node,.php,.mongo{
-    margin:2% 0 0 17.8%;
-}
-.cpp,.java,.python,.c-sharp,.css,.bootstrap,.js,.react,.express,.node,.php,.mongo{
-    margin-top:6%;
-}
-.c>p,.cpp>p,.java>p,.python>p,.c-sharp>p,.htlm>p,.css>p,.bootstrap>p,.js>p,.react>p,.sql>p,.express>p,.node>p,.php>p,.mongo>p{
+
+.c,.cpp,.java,.python,.c-sharp,.html,.css,.bootstrap,.js,.react,.sql,.express,.node,.php,.mongo{
     font:1.6rem Poppins,sans-serif;
     color:#878E99;
     font-weight: 700;
+    margin:3% 0 0 18%;
+    
+}
+.c,.cpp,.java,.python,.c-sharp{
+    margin:3% 0 0 16%;
 }
 .skills-bar1,.skills-bar2,.skills-bar3,.skills-bar4,.skills-bar5,.skills-bar6,.skills-bar7,.skills-bar8,.skills-bar9,.skills-bar10,.skills-bar11,.skills-bar12,.skills-bar13,.skills-bar14,.skills-bar15{
     height:.8rem;
@@ -530,59 +510,63 @@ li >a{
     }
 }
 .main4{
-    height:120vh;
+    /* height:120vh; */
     width:100%;
     margin:3% 0 0 0;
 }
 .project-container{
-    height:90%;
+    /* height:90%; */
     width:100%;
     display:flex;
+    padding-bottom: 2%;
+    padding-top:2%;
+
 }
 .project-container1,.project-container2{
-    height:90%;
+    /* height:90%; */
     width:50%;
+    
 }
 .project1,.project2,.project3,.project4{
-    height:50%;
+    height:55vh;
     width:70%;
     margin:4% 0 0 15%;
     background-color:#1a1a1a;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding-top: 2%;
 }
 .project1:hover,.project2:hover,.project3:hover,.project4:hover{
     box-shadow: #C4CFDE 0px 5px 15px;
 }
 .project1-img,.project2-img,.project3-img,.project4-img{
-    height:62%;
+    height:33vh;
     width:90%;
-    margin:6% 0 0 5%;
     border-radius: .6rem;
     overflow: hidden;
+    margin:0 0 0 5%;
+
 }
 .project1-img>img,.project2-img>img,.project3-img>img,.project4-img>img{
     height:100%;
     width:100%;
 }
+
 .project-description,.project-description2,.project-description3,.project-description4{
-    height:13%;
-    width:90%;
-    margin:3% 0 0 5%;
-    line-height: 4rem;
-}
-.project-description>p,.project-description>center,.project-description2>p,.project-description2>center,.project-description3>p,.project-description3>center,.project-description4>p,.project-description4>center{
     font:1rem Poppins,sans-serif;
     color:#878E99;
     font-weight: 700;
     line-height: 1.3rem;
+    margin:3% 0 0 5%;
+
 
 }
 .visit-btn,.visit-btn2,.visit-btn3,.visit-btn4{
     width:20%;
-    height:10%;
+    height:5vh;
     margin:3% 0 0 39%;
     border: none;
     border-radius: .3rem;
+
 }
 
 .visit-btn:hover,.visit-btn2:hover,.visit-btn3:hover,.visit-btn4:hover{
@@ -595,35 +579,31 @@ li >a{
     font:1.2rem Poppins,sans-serif;
 }
 .main5{
-    height:68vh;
+    /* height:68vh; */
     width:100%;
     margin-top: 3%;
 }
 .contact-details{
-    height:84%;
     width:100%;
-    margin-top: 2%;
     display:flex;
+    padding-bottom: 5%;
 }
 .contact-details1,.contact-details2{
-    height:100%;
     width:50%;
+    padding-top:5%;
+    padding-left:10%;
+    display:flex;
+    flex-direction: column;
+    gap:10%;
 }
-.get,.social,.phone,.e-mail{
-    height:8%;
-    width:50%;
-    margin:4% 0 0 15%;
-}
-.e-mail{
-    margin:2% 0 0 15%;
 
-}
-.get>p,.social>p{
+
+.get,.social{
     font:2rem Poppins,sans-serif;
     color:#FF014F;
     font-weight: 700;
 }
-.phone>p,.e-mail>p{
+.phone,.e-mail{
     font:1.3rem Poppins,sans-serif;
     color:#878E99;
     font-weight: 700;
@@ -679,7 +659,6 @@ li >a{
         padding-top: 25%;
     }
     .main1{
-        border:1px solid cyan;
         width:120vw;
         height:210vh;
         display:flex;
@@ -698,7 +677,6 @@ li >a{
     
     .part1,.part2{
         width:100%;
-        border:1px solid orangered;
         box-sizing: border-box;
     }
    
@@ -750,15 +728,102 @@ li >a{
         height:100%;
         width:20%;
     }
-   
+
+    /* education-styling */
+    .main2{
+        width:120vw;
+        height:260vh;
+
+    }
+    .edu-quality,.my-skills,.my-project,.my-contact{
+        font:2rem Montserrat,sans-serif;
+        font-family: 700;
+    }
+    .block{
+        flex-direction: column;
+    }
+    .block1,.block2{
+        width:100%;
+        height:50%;
+    }
+    .cllg,.school{
+        font-size: 1.7rem;
+        margin:5% 0 0 2%;
+    }
+    .btech,.twelve,.diploma,.tenth{
+        height:40%;
+        margin:2% 0 0 2%;
+        width:96%;
+    }
+
+    /* skills-styling  */
+    .main3{
+        width:120vw;
+        height:190vh;
+    }
+    .category{
+        flex-direction: column;
+        height:97%;
+        margin-top:0;
+
+    }
+    .category1,.category2,.category3{
+        height:40%;
+        width:100%;
+        overflow: hidden;
+    }
+    .c,.cpp,.java,.python,.c-sharp,.html,.css,.bootstrap,.js,.react,.sql,.express,.node,.php,.mongo{
+    font:1.3rem Poppins,sans-serif;
+    margin:2% 0 0 16%;
+
+    }
+    .skills-bar1,.skills-bar2,.skills-bar3,.skills-bar4,.skills-bar5,.skills-bar6,.skills-bar7,.skills-bar8,.skills-bar9,.skills-bar10,.skills-bar11,.skills-bar12,.skills-bar13,.skills-bar14,.skills-bar15{
+        height:.6rem;
+        margin:2% 0 0 16%;
+    }
+    .skill-per1,.skill-per2,.skill-per3,.skill-per4,.skill-per5,.skill-per6,.skill-per7,.skill-per8,.skill-per9,.skill-per10,.skill-per11,.skill-per12,.skill-per13,.skill-per14,.skill-per15{
+    height:.6rem;
+    }
+
+    /* Projects styling  */
+    .main4{
+        width:120vw;
+    }
+    .project-container{
+        flex-direction: column;
+    }
+    .project-container1,.project-container2{
+        width:100%;
+    }
+    .main5{
+        width:120vw;
+
+    }
+    .contact-details{
+        flex-direction: column;
+    }
+    .contact-details1,.contact-details2{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        padding-top:10%;
+    }
+    .phone,.e-mail{
+        margin-top:5%;
+    }
+    .icons2{
+        margin-top:5%;
+
+    }
 
 }
 
 /* for size 480px to 768px  */
 
- @media (min-width: 480px) and (max-width:768px){
+ /* @media (min-width: 480px) and (max-width:768px){ */
     /* nav bar styling  */
-     .bio{
+     /* .bio{
         height:9vh;
         width:30vw;
     }
@@ -786,15 +851,15 @@ li >a{
     
     }
 
-} 
+}  */
 
 
 /* for size 768px to 1024px  */
 
-@media (min-width: 768px) and (max-width:1024px){
+/* @media (min-width: 768px) and (max-width:1024px){ */
     /* nav bar styling  */
 
-    .bio{
+    /* .bio{
         height:10vh;
         width:30vw;
     }
@@ -816,4 +881,4 @@ li >a{
         font-size:1rem;
     }
     
-}
+} */
