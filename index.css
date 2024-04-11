@@ -616,8 +616,9 @@ li >a{
 
 
 
+
 /* for maximum size 480px  */
-@media (max-width:768px) {
+@media (max-width:1024px) {
     /* nav bar styling  */
     
     .bio{
@@ -812,7 +813,9 @@ li >a{
     }
     .icons2{
         margin-top:5%;
-
+    }
+    .breakA,.breakB,.breakC,.breakD{
+        width:120vw;
     }
 
 }
