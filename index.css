@@ -25,7 +25,10 @@ nav.sticky{
     left:0;
     /* background-color:#bfbfbf; */
     /* background-color:#4CAF50; */
+    /* background-color:  #262626; */
     background-color:  #262626;
+
+
     
 }
 nav.sticky li a{
@@ -235,6 +238,15 @@ li >a{
     display:flex;
     align-items: center;
     justify-content: center;
+}
+.leetcode-img{
+    scale:0.2;
+}
+.codechef-img{
+    scale:0.1;
+}
+.CodeStudi-img{
+    scale:0.1;
 }
 .linkedin,.facebook,.instagram,.leetcode,.codechef,.codestudio{
     scale: 1.7;
