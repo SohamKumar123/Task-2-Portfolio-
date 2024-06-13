@@ -586,9 +586,11 @@ li >a{
     color:#ffffff;
 }
 
-.visit-btn>p,.visit-btn2>p,.visit-btn3>p,.visit-btn4>p{
+.visit-btn>a,.visit-btn2>a,.visit-btn3>a,.visit-btn4>p{
     font-weight: 900;
     font:1.2rem Poppins,sans-serif;
+    text-decoration: none;
+    color:black;
 }
 .main5{
     /* height:68vh; */
